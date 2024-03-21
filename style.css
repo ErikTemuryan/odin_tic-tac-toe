@@ -1,0 +1,62 @@
+#headline {
+    display: flex;
+    font-size: 350%;
+    margin-left: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#turn {
+    display: flex;
+    font-size: 200%;
+    margin-left: 150px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+#container {
+    border: 5px solid orange;
+    height: 570px;
+    width: 570px;
+}
+
+.board1, .board2, .board4, .board5, .board7, .board8 {
+    display: flex;
+    border: 5px solid orange;
+    height: 180px;
+    width: 180px;
+    float: left;
+}
+
+.board3 {
+    display: flex;
+    border: 5px solid orange;
+    height: 180px;
+    width: 180px;
+    float: left;
+    flex-wrap: wrap;
+}
+
+.board6 {
+    display: flex;
+    border: 5px solid orange;
+    height: 180px;
+    width: 180px;
+    float: left;
+    flex-wrap: wrap;
+}
+
+.board9 {
+    display: flex;
+    border: 5px solid orange;
+    height: 180px;
+    width: 180px;
+    float: left;
+    flex-wrap: wrap;
+}
+
+.mark {
+    display: flex;
+    font-size: 800%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    justify-content: center;
+    align-items: center;
+}
